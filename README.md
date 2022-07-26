@@ -1,11 +1,11 @@
 # Count-of-Smaller-Numbers-After-Self
-Dado un arreglo de numeros enteros, se debe regresar un nuevo arreglo de conteos. El arreglo de conteos tiene la propiedad donde counts[i] es el número de elementos más pequeños a la derecha de nums[i].
+Dado un arreglo de numeros enteros (**nums**), se debe regresar un nuevo arreglo de conteos (**counts**). El arreglo **counts** almacena la cantidad de elementos menores hacia la derecha del valor en **nums[i]**, en la misma posición i **counts[i]**
 
 ## **Ejemplo 1:**
 
-- Entrada: nums = [5,2,6,1]
+      Entrada: nums = [5,2,6,1]
 
-- Salida: [2,1,1,0]
+      Salida: [2,1,1,0]
 
       Explicación:
 
@@ -21,18 +21,18 @@ Dado un arreglo de numeros enteros, se debe regresar un nuevo arreglo de conteos
 
 ## **Ejemplo 2:**
 
-Entrada: nums = [-1]
+        Entrada: nums = [-1]
 
-Salida: [0]
+        Salida: [0]
 
 ## **Ejemplo 3:**
 
-Entrada: nums = [-1,-1]
+           Entrada: nums = [-1,-1]
 
-Salida: [0,0]
+            Salida: [0,0]
  
+## **Indicaciones:**
 
-## **Restricciones:**
-1 <= nums.length <= 10<sup>5</sup>
+1. Realiza tu código en el archivo nombrado "countsmaller.py"
 
--104 <= nums[i] <= 10<sup>4</sup>
+2. Evalúa tu código con el archivo "test_countsmaller.py" (pytest)
