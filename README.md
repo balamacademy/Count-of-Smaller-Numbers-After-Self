@@ -27,12 +27,12 @@ Dado un arreglo de numeros enteros (**nums**), se debe regresar un nuevo arreglo
 
 ## **Ejemplo 3:**
 
-           Entrada: nums = [-1,-1]
+         Entrada: nums = [-1,-1]
 
-            Salida: [0,0]
+         Salida: [0,0]
  
 ## **Indicaciones:**
 
-1. Realiza tu código en el archivo nombrado "countsmaller.py"
+      1. Realiza tu código en el archivo nombrado "countsmaller.py"
 
-2. Evalúa tu código con el archivo "test_countsmaller.py" (pytest)
+      2. Evalúa tu código con el archivo "test_countsmaller.py" (pytest)
